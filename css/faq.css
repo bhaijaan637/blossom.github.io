@@ -1,0 +1,302 @@
+
+/*======== 1 Section ========*/
+.banner-section{
+   background: linear-gradient(rgba(126, 217, 254, 0.8),rgba(126, 217, 254, 0.8)),url(../images/about-banner.jpg);
+   background-repeat: no-repeat;
+   padding: 100px 0;
+   margin-top: 0;
+   border-top: 2px solid var(--primary);
+   background-size: cover;
+}
+.banner-section .heading{
+  color: var(--primary);
+  margin: 0;
+  padding: 0;
+}
+.banner-section p{
+  color: var(--white);
+  margin-bottom: 0;
+}
+/*======== 1 Section End ========*/
+
+/*======== 2 Section ========*/
+.accordion-flush .accordion-item {
+  margin-top: 20px;
+}
+.accordion-button {
+  border-color: #FFF;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding-left: 0;
+}
+
+.accordion-flush .accordion-button:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--primary);
+  background: transparent;
+}
+.accordion-button::after {
+  content: '';
+  background-size: 1.6rem;
+  width: 25px;
+/*  font-family: "Font Awesome 5 Free"; 
+  font-weight: 400;
+  content: "\f106";
+  background-image: none ;*/
+}
+.accordion-body {
+  padding-left: 0;
+}
+/*======== 2 Section End ========*/
+
+/*======== 3 Section ========*/
+.req-call{
+  background: var(--primary);
+  padding: 45px 0;
+  background-image: url('../images/about-blossomfield-1.png');
+  background-repeat: no-repeat;
+  background-position-x:right; 
+  background-position-y: bottom;
+  background-size: 12%;
+}
+.req-call h3{
+  color: var(--white);
+  font-weight: 700;
+}
+.req-call .form input , textarea{
+  margin-top: 24px;
+  resize: none;
+}
+.form-control {
+  border: none;
+  padding: .575rem .75rem;
+  width: 100%;
+  border-radius: 16px;
+}
+.form-control:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.req-call .sub-btn{
+  background: var(--white);
+  color: var(--primary);
+}
+.req-call .sub-btn:hover{
+  background: var(--primary);
+  color: var(--white);
+}
+/*======== 3 Section ========*/
+
+/*======== 4 Section ========*/
+.testimonial{
+  margin-top: 0;
+  background: var(--back-color);
+  padding: 90px;
+}
+.testimonial .test-box{
+  background: var(--white);
+  padding: 26px;
+  border-radius: 25px;
+  margin-right: 26px;
+  position: relative;
+  height: calc(100% - 60px);
+  padding-bottom: 130px;
+  transition: 0.2s;
+}
+.testimonial .test-box:after{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 98px 70px 0 0;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  bottom: -70px;
+  left: 15px;
+  transform: rotate(24deg);
+  transition: 0.2s;
+}
+.testimonial .test-box:hover{
+  background: var(--primary);
+  color: var(--white);
+}
+.testimonial .test-box:hover.test-box:after{
+  border-color: var(--primary) transparent transparent transparent;
+}
+.testimonial .test-box:hover.test-box .star i{
+  color: var(--white);
+}
+.testimonial .test-box .star i{
+  color: var(--primary);
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+.testimonial .test-box h6{
+  font-weight: 600;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+.testimonial .test-row-2{
+  margin-top: 5rem;
+}
+/*======= 4 Section End ======*/
+
+
+
+
+/*======= 5 Section ======*/
+.faq-section{
+  margin-top: 0;
+  background-color: var(--white);
+  padding: 90px;
+}
+.faq-section .pera{
+  font-size: 1.3rem;
+}
+.faq-section .content{
+  padding: 26px;
+  border-right: 2px solid #ddd;
+
+}
+.faq-section .content h3{
+  color: var(--primary);
+  padding-bottom: 0.8rem;
+}
+.faq-section .content p{
+  font-size: 14px;
+  color: var(--black);
+}
+.faq-section .second-row p{
+  font-size: 1.3rem;
+  text-align:center;
+  margin-top: 1rem;
+  margin-bottom: 2.2rem;
+}
+.faq-section .second-row p strong{
+  font-size: 1.8rem;
+}
+.faq-section .second-row p span{
+  color: var(--primary);
+}
+.faq-section .second-row  .faq-box{
+  background: var(--light-color);
+  padding: 26px;
+  display:flex;
+  border-radius: 26px;
+}
+.faq-section .second-row  .faq-box .icon-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  flex: 0 0 20%;
+}
+.faq-section .second-row  .faq-box .icon-area i{
+  font-size: 3rem;
+  color: var(--primary);
+}
+.faq-section .second-row  .faq-box h3{
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+.faq-section .second-row  .faq-box p{
+  text-align: justify;
+  margin: 0;
+  line-height: 1.3;
+  font-size: 14px;
+}
+/*======= 5 Section End ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px){
+  .testimonial .test-row-2 {
+    margin-top: 0;
+  }
+  .faq-section .content {
+    border: none;
+    border-bottom: 2px solid #ddd;
+  }
+  .faq-section .second-row .faq-box {
+    margin-top: 3rem;
+  }
+  .mission {
+    background-size: 12%;
+  }
+  .sub-btn{
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 768px){
+  .testimonial{
+    padding: 35px;
+    padding-bottom: 50px;
+  }
+  .testimonial .test-box {
+    margin-right: 0;
+  }
+  .faq-section {
+    padding: 35px;
+  }
+  .mission h2 {
+    font-size: 1.8rem;
+  }
+  .accordion-button {
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-width: 545px){
+  .testimonial .test-box {
+  padding: 16px;
+ }
+ .testimonial .test-box::after {
+  border-width: 61px 33px 0 0;
+  bottom: -52px;
+ }
+ .about-content{
+  padding: 0 14px;
+ }
+ .faq-section .second-row .faq-box {
+  flex-direction: column;
+ }
+ .faq-section .second-row .faq-box .icon-area {
+  margin: 0;
+  margin-bottom: 1rem;
+ }
+   .mission h2 {
+    font-size: 1.5rem;
+    padding: 0 12px; 
+ }
+ .accordion-button::after {
+  background-size: 1.2rem;
+ }
+ .accordion-button {
+  font-size: 1rem;
+ }
+ .accordion-body {
+  font-size: 14px;
+ }
+}

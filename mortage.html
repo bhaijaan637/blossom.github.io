@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Mortage</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- Font Awsome 5-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+ <!-- jqurey -->
+  <script  src="http://code.jquery.com/jquery-3.3.1.min.js" /></script>
+  
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="css/mortage.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- ================Top Bar================ -->
+ <div class="container-fluid p-0">
+  <div class="top-bar">
+   <div class="top-img">
+    <img src="images/Blossomfield_logo.svg" alt="">
+   </div>
+   <div class="top-right">
+     <a href="" class="btn"><i class="fas fa-sign-in-alt"></i>Log in</a>
+     <a href="" class="btn contact-btn"><i class="fas fa-phone-alt"></i>contact us</a>
+     <div class="top-search">
+      <input type="search" name="search" placeholder="Search" class="search">
+      <a href=""><i class="fas fa-search"></i></a>
+     </div>
+   </div>
+  </div>
+ </div>
+ <!-- ================Top Bar================ -->
+
+ <!-- Menu  icon -->
+<span class="screen-darken"></span>
+<div class="icon-bar d-lg-none">
+ <div class="bar-img">
+    <img src="images/Blossomfield_logo.svg" alt="">
+ </div>
+ <i class="fas fa-bars " data-trigger="navbar_main" type="button"></i>
+</div>
+<!-- Menu  icon -->
+
+<!-- ============= Navigation COMPONENT ============== -->
+<nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg pb-0">
+ <div class="container-fluid p-0">
+    <div class="offcanvas-header">  
+    <button class="btn-close float-end"></button>
+  </div>
+    <a class="navbar-brand d-lg-none" href="#">
+      <img src="images/Blossomfield_logo.svg" alt="" class="navbar-brand-img">
+    </a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Home </a> 
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">our services </a>
+    </li>
+    <li class="nav-item has-child">
+      <a class="nav-link" href="#">mortage products </a>
+       <div class="menu-container">
+        <div class="menu-content">
+          <h1>fully catered</h1>
+          <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+          <a href="" class="btn">See more</a>
+        </div>
+        <ul class="menu-links">
+          <i class="fas fa-chevron-left d-lg-none bck bck-1"></i>
+          <li class="nav-item">
+            <a href="" class="nav-link">Residential mortgages <i class="fas fa-chevron-right"></i></a>
+            <ul class="sub-menu">
+              <i class="fas fa-chevron-left d-lg-none bck bck-2"></i>
+              <li class="nav-item">
+                <a href="" class="nav-link">Residential First</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Residential Second <i class="fas fa-chevron-right"></i></a>
+                <ul class="inner-sub-menu">
+                  <i class="fas fa-chevron-left d-lg-none bck bck-3"></i>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Second Residential 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Second Residential 1</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Residential Third</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Remartgaging</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">buy to let</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">help to buy</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">shared ownership <i class="fas fa-chevron-right"></i></a>
+            <ul class="sub-menu">
+              <i class="fas fa-chevron-left d-lg-none bck bck-2"></i>
+              <li class="nav-item">
+                <a href="" class="nav-link">The ownership</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">The ownership 2</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">The ownership 3 <i class="fas fa-chevron-right"></i></a>
+                <ul class="inner-sub-menu">
+                  <i class="fas fa-chevron-left d-lg-none bck bck-3"></i>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">shared our ownership</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>        
+       </div>
+    </li>
+    <li class="nav-item has-child">
+      <a class="nav-link" href="#">mortage types </a>
+      <div class="menu-container">
+        <div class="menu-content">
+          <h1>mortgage expert</h1>
+          <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+          <a href="" class="btn">See more</a>
+        </div>
+        <ul class="menu-links">
+          <i class="fas fa-chevron-left d-lg-none bck bck-1"></i>
+          <li class="nav-item">
+            <a href="" class="nav-link">Fixed Rate mortgages</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">variable rate mortgages <i class="fas fa-chevron-right"></i></a>
+            <ul class="sub-menu">
+              <i class="fas fa-chevron-left d-lg-none bck bck-2"></i>
+              <li class="nav-item">
+                <a href="" class="nav-link">tracker mortgages <i class="fas fa-chevron-right"></i></a>
+                <ul class="inner-sub-menu">
+                  <i class="fas fa-chevron-left d-lg-none bck bck-3"></i>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">tracker mortgages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">svr mortgages</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">mortgages Rates</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">mortgages Rates</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">tools & calculators </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="faq.html">insurance types </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact Us</a>
+    </li>
+  </ul>
+ </div> <!-- container-fluid.// -->
+</nav>
+<!-- ============= Navigation COMPONENT END// ============== -->
+
+<!-- ==================== 1 Section ======================== -->
+<section class="container-fluid banner-section">
+  <div class="banner-content text-center">
+    <h1 class="heading">Mortgages</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+</section>
+<!-- ==================== 1 Section End===================== -->
+
+<!-- ==================== 2 Section ======================== -->
+<section class="container mor-detail">
+  <div class="row">
+    <div class="col-lg-9">
+      <div class="content">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nobis est cumque voluptas temporibus, veniam eos facilis neque recusandae laborum omnis, minima nulla odio magnam quisquam, maxime qui. Provident voluptates, fugit asperiores explicabo recusandae doloribus sunt cumque porro animi quas nesciunt tempore ex quis eius quibusdam corrupti numquam aspernatur eum deleniti expedita culpa rerum dicta officiis! Ipsam recusandae, reiciendis provident dicta expedita debitis velit ea sapiente numquam fugit dolores officiis atque minus laboriosam accusantium perferendis repellendus, ab sed asperiores hic officia enim? Vero aperiam possimus cum ut, temporibus veniam architecto suscipit cumque perspiciatis esse fuga aspernatur laborum officiis, laboriosam, culpa!
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="mor-img">
+        <img src="images/Services 1.png" alt="" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="col-lg-9">
+      <div class="content">
+        <h3>Aenean  vestibulum sit amet consectetur elit.</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur unde suscipit explicabo consequuntur illum quae, possimus harum, fugit atque culpa est sapiente exercitationem fugiat ea. Voluptatem ex ut similique asperiores natus nemo ab porro ratione sit. Aut deserunt enim veniam incidunt iusto quos vitae iure nemo sit magni ea voluptas in ipsa dolorem odit maiores, dolor iste fuga! Accusamus cupiditate dolore deleniti repellat dicta dolor corrupti vel expedita, provident exercitationem molestiae neque maxime debitis! Repellat, a deleniti debitis, vel at error ex quibusdam cumque architecto dolorem. Iste labore, sed deleniti reiciendis illo maxime molestias nisi quos officia rem odit esse iusto ipsa error excepturi repudiandae quasi unde commodi, placeat culpa aliquid!</p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="mor-img">
+        <img src="images/Services 2.png" alt="" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="col-lg-9">
+      <div class="content">
+        <h3>Lorem ipsum, dolor sit amet consectetur.</h3>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores a aspernatur deleniti, quibusdam ullam molestias ad atque est dolores voluptatibus fugit voluptates quos nostrum quia illum earum ut voluptatum minima, impedit eveniet beatae nisi officiis nobis repellat. Esse consequuntur fugiat doloribus harum temporibus laudantium molestiae! Mollitia expedita voluptatem nemo sequi cum, fuga aliquid repellendus, unde? Mollitia dolorem quae accusantium!</p>
+
+        <div class="btn-box">
+         <a href="" class="btn">get a mortgage</a>
+         <a href="" class="btn re-btn">re-mortgage now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="mor-img">
+        <img src="images/Services 3.png" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ==================== 2 Section End===================== -->
+
+<!-- ==================== 3 Section ======================== -->
+<section class="container-fluid req-call">
+  <div class="container">
+   <div class="row">
+    <h3>Request A Call Back</h3>
+    <div class="col-lg-4">
+      <div class="form">
+        <div class="name">
+          <input type="text" name="name" class="form-control" placeholder="Name">
+        </div>
+
+        <div class="email">
+          <input type="email" name="email" class="form-control" placeholder="Email">
+        </div>
+
+        <div class="phone">
+          <input type="number" name="phone" maxlength="10" class="form-control" placeholder="Phone">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="text-area">
+        <textarea class="form-control" rows="6" placeholder="Message:"></textarea>
+      </div>
+    </div>
+    <div class="col-lg-2 d-flex flex-column-reverse">
+        <a href="" class="btn sub-btn"> submit</a>
+    </div>
+   </div>    
+  </div>
+</section>
+<!-- ==================== 3 Section ======================== -->
+
+<!-- ==================== 4 Section ======================== -->
+<section class="container-fluid section-4">
+  <div class="container">
+  <div class="row">
+   <div class="col-lg-8">
+    <div class="content">
+      <h2 class="heading">Lorem, ipsum dolor sit.</h2>
+      <p class="pera">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, magnam explicabo voluptatibus beatae expedita, molestiae nobis laudantium alias esse quidem!</p>
+      <p class="pera">Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nostrum ut qui, consequuntur quae deleniti.</p>
+      <div class="btn-box">
+       <a href="" class="btn btn-2">see more</a>
+      </div>
+    </div>
+   </div>
+   <div class="col-lg-4">
+      <div class="img-box">
+        <img src="images/home-cal.png" alt="" class="img-fluid">
+      </div>
+   </div>
+  </div>
+ </div>
+</section>
+<!-- ==================== 4 Section End===================== -->
+
+<!-- ==================== 5 Section ======================== -->
+<section class="container-fluid testimonial">
+  <div class="container">
+    <div class="row"> <!-- first-row -->
+      <div class="col-sm-12 mb-md-4">
+       <h2 class="heading text-center">What our customers say about us</h2>
+      </div>
+      <div class="col-lg-4">  <!-- col-4 -->
+        <div class="test-box">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Porro minima, possimus nisi repellat sequi, aspernatur et. Illum?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Est sit ducimus accusantium provident nemo!
+          </p>
+          <h6>John Smith, Coventry</h6>
+        </div>
+      </div>  <!-- col-4 -->
+
+      <div class="col-lg-4">  <!-- col-4 -->
+        <div class="test-box">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Porro minima, possimus nisi repellat sequi, aspernatur et. Illum?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Est sit ducimus accusantium provident nemo!
+          </p>
+          <h6>John Smith, Coventry</h6>
+        </div>
+      </div>  <!-- col-4 -->
+
+      <div class="col-lg-4">  <!-- col-4 -->
+        <div class="test-box">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Porro minima, possimus nisi repellat sequi, aspernatur et. Illum?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Est sit ducimus accusantium provident nemo!
+          </p>
+          <h6>John Smith, Coventry</h6>
+        </div>
+      </div>  <!-- col-4 -->
+    </div>
+  </div>
+</section>
+<!-- ==================== 5 Section End===================== -->
+
+<!-- ==================== 6 Section ======================== -->
+<section class="container faq-section">
+  <div class="row">
+    <h2 class="heading text-center">We're always here to help</h2>
+    <h6 class="pera text-center">Frequently asked questions...</h6>
+    <div class="col-lg-4">
+      <div class="content">
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Sit vel nulla praesentium labore modi tenetur reprehenderit?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex rem repellat animi natus modi illum enim accusamus odio velit ab.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="content">
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Sit vel nulla praesentium labore modi tenetur reprehenderit?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex rem repellat animi natus modi illum enim accusamus odio velit ab.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 no-border">
+      <div class="content border-0">
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Sit vel nulla praesentium labore modi tenetur reprehenderit?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex rem repellat animi natus modi illum enim accusamus odio velit ab.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row second-row justify-content-center"> <!-- row-2 -->
+    <p>read more <strong>FAQs</strong> <a href="">here</a></p>
+    <div class="col-lg-5 me-lg-3"> <!-- col -->
+      <div class="faq-box mt-0">
+        <div class="icon-area">
+          <img src="images/call.png" alt="" class="img-fluid">
+        </div>
+        <div class="content-area">
+          <h3>Lorem ipsum, dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci recusandae sunt laboriosam molestias Ut.</p>
+        </div>
+      </div>
+    </div> <!-- col -->
+
+    <div class="col-lg-5 ms-lg-3"> <!-- col -->
+      <div class="faq-box">
+        <div class="icon-area">
+          <img src="images/msg.png" alt="" class="img-fluid">
+        </div>
+        <div class="content-area">
+          <h3>Lorem ipsum, dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci recusandae sunt laboriosam molestias Ut.</p>
+        </div>
+      </div>
+    </div> <!-- col -->
+  </div>  
+</section>
+<!-- ==================== 6 Section End===================== -->
+
+<!-- ===================== Footer ======================= -->
+<footer class="container-fluid footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-4">
+        <div class="footer-logo">
+          <img src="images/Blossomfield_footer_logo.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-10 ps-lg-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <ul>
+                <li>
+                  <a href="">Lorem, ipsum, dolor</a>
+                </li>
+                <li>
+                  <a href="">Lorem ipsum dolor sit</a>
+                </li>
+                <li>
+                  <a href="">Lorem ipsum, dolor sit</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <ul>
+                <li>
+                  <a href="">Lorem, ipsum, dolor</a>
+                </li>
+                <li>
+                  <a href="">Lorem ipsum dolor sit</a>
+                </li>
+                <li>
+                  <a href="">Lorem ipsum, dolor sit</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <ul>
+                <li>
+                  <a href="">Lorem, ipsum, dolor</a>
+                </li>
+                <li>
+                  <a href="">Lorem ipsum dolor sit</a>
+                </li>
+                <li>
+                  <a href="">Lorem ipsum, dolor sit</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box social">
+              <h5>social</h5>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-linkedin-in m-0"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore odio repudiandae facere. Corporis minus necessitatibus incidunt beatae exercitationem quae nostrum ipsam non deleniti sint. Inventore doloribus dicta eaque earum.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 footer-btm-logo d-lg-none">
+          <img src="images/Blossomfield_footer_logo.svg" alt="" width="20%">
+        </div> 
+        </div>
+      </div>     
+    </div>
+  </div>
+</footer>
+<!-- ===================== Footer End ==================== -->
+
+<!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- OWN Js -->
+  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+/*======== 1 Section ========*/
+.banner-section{
+   background: linear-gradient(rgba(126, 217, 254, 0.8),rgba(126, 217, 254, 0.8)),url(../images/about-banner.jpg);
+   background-repeat: no-repeat;
+   padding: 100px 0;
+   margin-top: 0;
+   border-top: 2px solid var(--primary);
+   background-size: cover;
+}
+.banner-section .heading{
+  color: var(--primary);
+  margin: 0;
+  padding: 0;
+}
+.banner-section p{
+  color: var(--white);
+  margin-bottom: 0;
+}
+/*======== 1 Section End========*/
+
+/*======== 2 Section ========*/
+.calc-section{
+  padding: 40px;
+  position: relative;
+  background: #FFF;
+}
+.calc-section:after{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -50px;
+  left: calc(100% - 55%);
+  width: 100px;
+  height: 100px;
+  box-shadow: -6px 6px 8px rgba(0,0,0,.1);
+  line-height: 0px;
+  transform: rotate(-45deg);
+  background: var(--white);
+  z-index: 0;
+}
+.calc-section h3{
+  color: var(--primary);
+  font-weight: 700;
+}
+.calc-section .sel label{
+  margin-bottom: 0;
+  font-size: 2rem;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.calc-section .sel .form-check-input:checked + label{
+  background-color: var(--primary);
+  color: var(--white);
+}
+.calc-section .col-md-12{
+  border-bottom: 3px solid var(--primary);
+  padding: 0;
+  margin-bottom: 50px;
+}
+.calc-section .sel{
+  background: var(--light-color);
+  max-width: 365px;
+  border-radius: 16px;
+  text-align: center;
+  height: 100%;
+}
+.calc-section .sel .form-check-input{
+  display: none;
+}
+.secon-row .sel{
+  max-width: 548px;
+}
+.range-text , .range , .range-val{
+  margin-top: 80px;
+}
+.range-text {
+  max-width: 290px;
+}
+.range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px;
+}
+.range-val {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px;
+}
+.range .form-range{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.range .form-range::-moz-range-thumb:focus{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  outline: none;
+}
+.range .form-range::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: var(--primary);
+  cursor: pointer;
+}
+.range .form-range::-webkit-slider-thumb {
+  width: 25px;
+  height: 25px;
+  background: var(--primary);
+  cursor: pointer;
+}
+.form-control:focus{
+  box-shadow: none;
+  outline: none;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.form-check-input:focus{
+  box-shadow: none;
+  outline: none;
+  border-color: var(--primary);
+}
+.form-control{
+  font-size: 1.8rem;
+  color: var(--primary);
+  height: 100%;
+  border: 1px solid #ddd;
+}
+.range-text label{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.cals-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.calc-section .cal-btn{
+  font-size: 1.6rem;
+  max-width: 230px;
+  padding: 12px 24px;
+  border: 1px solid var(--primary);
+}
+.calc-section .cal-btn:hover{
+  border-color: var(--primary);
+}
+.form-check-input {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 10px;
+}
+.cals-row .form-check-input:checked {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.form-check label{
+  font-size: 1.5rem;
+}
+/*======== 2 Section End========*/
+
+/*======== 3 Section ========*/
+.duty-section{
+  margin-top: 50px;
+  padding: 40px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.duty-section .duty-text{
+  border-bottom: 2px solid #ddd;
+  max-width: 500px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.duty-section .duty-text h5{
+  font-weight: 600;
+}
+.duty-section .duty-text h2{
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-top: 8px;
+  padding-bottom: 0.5rem;
+}
+.duty-section h4{
+  font-size: 1.8rem;
+}
+.duty-section .rate-box {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #DDD;
+  margin-top: 2rem;
+}
+.duty-section .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  padding: 20px 30px;
+}
+.duty-section .box h6{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.duty-section .box span{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+/*======== 3 Section End========*/
+
+/*======== 4 Section ========*/
+.section-4 {
+  background-color: var(--light-color);
+  padding: 90px;
+}
+.section-4 .content{
+  padding-right: 26px;
+}
+.section-4 .img-box{
+  background: var(--primary);
+  text-align: center;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.section-4 img{
+  filter: invert(1) brightness(5);
+}
+.section-4 .btn-box .btn{
+  background: transparent;
+}
+.section-4 .btn-box .btn:hover{
+  background: var(--primary);
+}
+/*======= 4 Section End ======*/
+
+/*======== 5 Section ========*/
+.testimonial{
+  margin-top: 0;
+  background: var(--back-color);
+  padding: 90px;
+}
+.testimonial .test-box{
+  background: var(--white);
+  padding: 26px;
+  border-radius: 25px;
+  margin-right: 26px;
+  position: relative;
+  height: calc(100% - 60px);
+  padding-bottom: 130px;
+  transition: 0.2s;
+}
+.testimonial .test-box:after{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 98px 70px 0 0;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  bottom: -70px;
+  left: 15px;
+  transform: rotate(24deg);
+  transition: 0.2s;
+}
+.testimonial .test-box:hover{
+  background: var(--primary);
+  color: var(--white);
+}
+.testimonial .test-box:hover.test-box:after{
+  border-color: var(--primary) transparent transparent transparent;
+}
+.testimonial .test-box:hover.test-box .star i{
+  color: var(--white);
+}
+.testimonial .test-box .star i{
+  color: var(--primary);
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+.testimonial .test-box h6{
+  font-weight: 600;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+.testimonial .test-row-2{
+  margin-top: 5rem;
+}
+/*======= 5 Section End ======*/
+
+/*======== 6 Section ========*/
+.faq-section {
+  margin-top: 0;
+}
+/*======== 6 Section ========*/
+
+
+@media(max-width: 1200px){
+ .calc-section .sel label , .duty-section .box h6 {
+  font-size: 1.8rem;
+  padding: 20px;
+ }
+}
+
+@media(max-width: 991px){
+  .section-4 .row{
+    flex-direction: column-reverse;
+  }
+  .calc-section .sel{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: auto;
+    max-width: 380px;
+  }
+  .calc-section .secon-row{
+    margin: 0;
+  }
+  .range-text, .range, .range-val {
+    margin-top: 10px;
+  }
+  .range-text{
+    margin-top: 25px;
+  }
+  .duty-section .rate-box {
+    flex-direction: column;
+  }
+  .duty-section .rate-box:nth-child(1){
+    border-bottom: 2px solid #ddd;
+  }
+  .duty-section .box {
+    width: 100%;
+  }
+  .calc-section .cal-btn {
+    padding: 12px 16px;
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-width: 545px){
+  .section-3 .img-box, .section-4 .img-box {
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+ }
+ .range-text label {
+  font-size: 1.6rem;
+ }
+ .range-val {
+  height: auto;
+ }
+.calc-section .sel label {
+   font-size: 1.5rem;
+   padding: 20px;
+  }
+  .duty-section .duty-text h5 {
+    font-size: 1rem;
+  }
+   .calc-section h3 , .duty-section .duty-text h2 {
+   font-size: 1.5rem;
+ }
+   .calc-section .col-md-12 p span{
+    display: none;
+  }
+  .duty-section .box h6 , .duty-section .box span {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
